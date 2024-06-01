@@ -20,6 +20,8 @@ void MemBreakPoint::DrawContent(){
     c.Begin(break_point_hash.size());
     ImDrawList *draw_list = ImGui::GetWindowDrawList();
     char buf[5]={0};
+    char *ltoa(long integer, char *string, int radix);
+    
     while (c.Step()) {
         
         for (int i = c.DisplayStart;i<c.DisplayEnd;i++) {
