@@ -56,3 +56,4 @@ With debuggers.
 	```
 	xmake run CasioEmuX ../models/fx991cnx
 	```
+ thanks steveyboi for saving my sanity
